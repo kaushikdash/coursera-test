@@ -1,5 +1,4 @@
 /********** Base styles **********/
-/********** Base styles **********/
 * {
   box-sizing: border-box;
   margin: 0px;
@@ -12,35 +11,6 @@ div#container{
 
 }
 div#box1 {
-  background-color: gray;
-  padding: 0px;
-  margin-left: 10px;
-  margin-right:10px;
-  margin-top:15px;
-  border: 3px solid black;
-  width: 30%;
-  height: auto;
-  position: relative;
-  float: auto;
-  <!-- overflow: auto; -->
-}
-
-div#box2 {
-  background-color: gray;
-  padding: 0px;
-  margin-left: 10px;
-  margin-right:10px;
-  margin-top:15px;
-  border: 3px solid black;
-  width: 30%;
-  height: auto;
-  position: relative;
-  float:auto;
-  <!-- float: center; -->
-  <!-- overflow: auto; -->
-}
-
-div#box3 {
   background-color: gray;
   padding: 0px;
   margin-left: 10px;
@@ -108,9 +78,9 @@ article {
 }
 
 /* Simple Responsive Framework. */
-.row {
+.row{
   width: 100%;
-  text-align: right-side
+  /* text-align: right-side */
 }
 
 /********** Large devices only **********/
